@@ -11,12 +11,18 @@ body {
     background-color: #eaefe973;
 }
 
+.section{
+    padding: 80px 0;
+}
 .btn {
     box-shadow: none !important;
     border-radius: 8px;
 }
+.bg-brown{
+    background-color: #b96a3b !important;
+}
 .text-brown{
-    color: #b96a3b !important;
+    color: #9b5730 !important;
 }
 .btn-brown{
     background-color: #b96a3b !important;
@@ -30,6 +36,56 @@ body {
     color: white;
 }  
 
+
+
+
+
+
+
+/* ========================  P R E L O A D E R  ======================= */
+#preloader {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+#preloader .progress {
+    height: 5px !important;
+    width: 400px !important;
+}
+#preloader.loaded {
+    opacity: 1;
+    z-index: 9999;
+    animation-name: fadeout;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    animation-delay: .5s;
+}
+
+/* ========================  A M I N A T I O N  ======================= */
+@keyframes fadeout{
+    0% {
+        opacity: 1;
+        z-index: 9999;
+    }
+    100% {
+        opacity: 0;
+        z-index: -9999;
+    }
+}
+
+
+
+
+
+
+
+
+
 /* 
     *********************************
             N  A  V  B  A  R
@@ -37,4 +93,62 @@ body {
 */
 .navbar .nav-link{
     padding: 10px 20px !important;
+}
+
+
+
+.masthead {
+    padding-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:991px) {
+    
+    .navbar .nav-link{
+        padding: 20px 0 0 20px !important;
+    }
+    .navbar .navbar-collapse .btn{
+        margin-top: 20px !important;
+        margin-left: 15px !important;
+    }
+
+
+    .navbar .navbar-collapse {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding: 30px 0 50px 20px;
+        height: 100vh;
+        background-color: white;
+        width: 100vw;
+        overflow-y: auto;
+    }
 }

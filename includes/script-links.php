@@ -4,3 +4,5 @@
 <script src="vendor/popper.js/umd/popper.min.js"></script>
 <!-- bootstrap link -->
 <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- external script -->
+<script src="js/script.js"></script>

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-light navbar-expand-lg py-3 bg-white shadow-sm fixed-top">
+<nav class="navbar navbar-light navbar-expand-lg py-2 bg-white shadow-sm fixed-top">
         <div class="container">
             <!-- navbar brand -->
             <a href="javascript:void(0)" class="navbar-brand text-brown font-weight-bold">
@@ -14,6 +14,8 @@
 
             <!-- navbar collapse container -->
             <div class="navbar-collapse collapse" id="menu">
+
+                <button class="close d-block d-lg-none" type="button" onclick="closeMenu() "><span class="fa-2x p-2">&times;</span></button>
                 <!-- navbar items -->
                 <ul class="navbar-nav mx-auto">
 

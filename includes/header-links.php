@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- site title -->
-    <title>My Portfoilio</title>
+    <title>My Portfolio</title>
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="assets/me.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/me/me.png" type="image/x-icon">
     
     <!-- bootstrap -->
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
