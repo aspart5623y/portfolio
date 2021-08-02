@@ -46,35 +46,35 @@
 
                     <!-- gmail -->
                     <a href="mailto:willemzy2002@gmail.com" class="btn btn-danger my-3 d-block" target="_blank">
-                        <i class="ion-logo-google" style="font-size:20px;"></i>
+                        <i class="fab fa-google" style="font-size:18px;"></i>
                         &nbsp;
                         Gmail
                     </a>
 
                     <!-- facebook -->
                     <a href="#" class="btn btn-primary my-3 d-block" target="_blank">
-                        <i class="ion-logo-facebook" style="font-size:20px;"></i>
+                        <i class="fab fa-facebook" style="font-size:18px;"></i>
                         &nbsp;
                         Facebook
                     </a>
 
                     <!-- instagram -->
                     <a href="https://www.instagram.com/williams.strings/?hl=en" class="btn btn-secondary my-3 d-block" target="_blank">
-                        <i class="ion-logo-instagram" style="font-size:20px;"></i>
+                        <i class="fab fa-instagram" style="font-size:18px;"></i>
                         &nbsp;
                         Instagram
                     </a>
 
                     <!-- whatsapp -->
                     <a href="https://wa.link/o2t121" class="btn btn-success my-3 d-block" target="_blank">
-                        <i class="ion-logo-whatsapp" style="font-size:20px;"></i>
+                        <i class="fab fa-whatsapp" style="font-size:18px;"></i>
                         &nbsp;
                         Whatsapp
                     </a>
 
                     <!-- github -->
                     <a href="https://github.com/aspart5623y?tab=repositories" class="btn btn-dark my-3 d-block" target="_blank">
-                        <i class="ion-logo-github" style="font-size:20px;"></i>
+                        <i class="fab fa-github" style="font-size:18px;"></i>
                         &nbsp;
                         Github
                     </a>

@@ -12,8 +12,6 @@
     
     <!-- bootstrap -->
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-    <!-- ionicon link -->
-    <link rel="stylesheet" href="vendor/ionicons-master/docs/css/ionicons.min.css">
     <!-- font awesome link -->
     <link rel="stylesheet" href="vendor/fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/all.min.css">
     <!-- external css style sheet -->
