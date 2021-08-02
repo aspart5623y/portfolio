@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    font-size: 14px;
+    font-size: 15px;
     outline: none !important;    
 }
 
@@ -13,9 +13,22 @@ body {
 
 .btn {
     box-shadow: none !important;
-    border-radius: 30px;
+    border-radius: 8px;
 }
-  
+.text-brown{
+    color: #b96a3b !important;
+}
+.btn-brown{
+    background-color: #b96a3b !important;
+    border-color: #b96a3b !important;
+    color: white;
+    transition: .2s all ease-in-out;
+}  
+.btn-brown:hover{
+    background-color: #9b5730 !important;
+    border-color: #9b5730 !important;
+    color: white;
+}  
 
 /* 
     *********************************
@@ -23,5 +36,5 @@ body {
     *********************************
 */
 .navbar .nav-link{
-    padding: 0px 20px !important;
+    padding: 10px 20px !important;
 }
