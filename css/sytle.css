@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-size: 14px;
+    outline: none !important;    
+}
+
+
+body {
+    background-color: #eaefe973;
+}
+.btn {
+    box-shadow: none !important;
+    border-radius: 30px;
+}
+  
