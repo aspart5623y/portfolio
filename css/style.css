@@ -10,8 +10,18 @@
 body {
     background-color: #eaefe973;
 }
+
 .btn {
     box-shadow: none !important;
     border-radius: 30px;
 }
   
+
+/* 
+    *********************************
+            N  A  V  B  A  R
+    *********************************
+*/
+.navbar .nav-link{
+    padding: 0px 20px !important;
+}

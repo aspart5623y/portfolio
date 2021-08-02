@@ -8,7 +8,7 @@
     <title>My Portfoilio</title>
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/me.png" type="image/x-icon">
     
     <!-- bootstrap -->
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -17,35 +17,39 @@
     <!-- font awesome link -->
     <link rel="stylesheet" href="vendor/fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/all.min.css">
     <!-- external css style sheet -->
-    <link rel="stylesheet" href="css/sytle.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
 
-    <nav class="navbar navbar-light navbar-expand-lg py-3 bg-white shadow-sm">
+    <!-- 
+        *********************************
+                N  A  V  B  A  R
+        *********************************
+    -->
+    <nav class="navbar navbar-light navbar-expand-lg py-3 bg-white shadow-sm fixed-top">
         <div class="container">
+            <!-- navbar brand -->
             <a href="javascript:void(0)" class="navbar-brand text-primary font-weight-bold">
                 Williams
             </a>
 
 
+            <!-- navbar toggler btn -->
             <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#menu">
+                <!-- navbar toggler icon -->
                 <span class="navbar-toggler-icon"></span>
             </button>
 
+            <!-- navbar collapse container -->
             <div class="navbar-collapse collapse" id="menu">
+                <!-- navbar items -->
                 <ul class="navbar-nav ml-auto">
+
                     <!-- link -->
                     <li class="nav-item">
                         <a href="#" class="nav-link">
                             About
-                        </a>
-                    </li>
-
-                    <!-- link -->
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            Works
                         </a>
                     </li>
 
@@ -59,10 +63,19 @@
                     <!-- link -->
                     <li class="nav-item">
                         <a href="#" class="nav-link">
+                            Works
+                        </a>
+                    </li>
+                    
+                    <!-- link -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
                             Contact
                         </a>
                     </li>
+
                 </ul>
+
             </div>
         </div>
     </nav>
