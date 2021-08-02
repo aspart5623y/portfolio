@@ -50,7 +50,7 @@
                 </ul>
 
 
-                <a href="#" class="btn btn-brown px-5 py-3">Hire me</a>
+                <a href="#" class="btn btn-brown px-5 py-3">Download my CV</a>
             </div>
         </div>
     </nav>
